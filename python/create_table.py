@@ -12,30 +12,25 @@ try:
 
     cursor = cnx.cursor()
 
-    # cursor.execute("DROP TABLE IF EXISTS student")
+    cursor.execute("DROP TABLE IF EXISTS sample_data")
+
+    cnx.commit() # コミット. (2, koro) のデータは問題なく書き込める．
+
 
     sql = '''
     CREATE TABLE sample_data (
         id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-        SeriousDlqin2yrs
-        RevolvingUtilizationOfUnsecuredLines
-        age
-        NumberOfTime30-59DaysPastDueNotWorse
-        DebtRatio
-        MonthlyIncome
-        NumberOfOpenCreditLinesAndLoans
-        NumberOfTimes90DaysLate
-        NumberRealEstateLoansOrLines
-        NumberOfTime60-89DaysPastDueNotWorse
-        NumberOfDependents
-
-
-
-       student_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-       first_name VARCHAR(50) NULL,
-       last_name VARCHAR(50) NULL,
-       birthday DATE NULL,
-       gender ENUM('F','M')
+        SeriousDlqin2yrs INT, 
+        RevolvingUtilizationOfUnsecuredLines DECIMAL(20, 10),
+        age INT,
+        NumberOfTime3059DaysPastDueNotWorse INT,
+        DebtRatio DECIMAL(20, 10),
+        MonthlyIncome INT,
+        NumberOfOpenCreditLinesAndLoans INT,
+        NumberOfTimes90DaysLate INT,
+        NumberRealEstateLoansOrLines INT,
+        NumberOfTime6089DaysPastDueNotWorse INT,
+        NumberOfDependents INT
     )'''
     cursor.execute(sql)
 

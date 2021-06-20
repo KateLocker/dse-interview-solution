@@ -15,12 +15,8 @@ try:
     # cursor.execute("DROP TABLE IF EXISTS student")
 
     sql = '''
-    CREATE TABLE test_student (
-       student_id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-       first_name VARCHAR(50) NULL,
-       last_name VARCHAR(50) NULL,
-       birthday DATE NULL,
-       gender ENUM('F','M')
+    CREATE TABLE sample_data (
+        id INT NOT NULL AUTO_INCREMENT PRIMARY KEY
     )'''
     cursor.execute(sql)
 
