@@ -28,3 +28,12 @@ $ python -m pip install networkx
 $ python -m pip install pyyaml
 $ python -m pip install xlsxwriter
 $ python -m pip install tornado
+
+## Got a package bigger than
+docker compose exec mysql_db bash
+
+mysql -u root -p
+password
+
+SET GLOBAL max_allowed_packet=1000000000;
+
