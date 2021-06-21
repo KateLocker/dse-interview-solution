@@ -17,9 +17,10 @@ The solution to the assignment is as followed.
 
 # Instruction and Issue Memo
 
-## 1. download from gitlab
+## 1. download from gitlab or github
 ```
 git clone https://gitlab.com/Kate_L/dse-interview.git
+git clone https://github.com/KateLocker/dse-interview-solution.git
 ```
 
 ## 2. build and run with compose
