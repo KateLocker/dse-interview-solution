@@ -4,17 +4,17 @@ cnx = None
 
 try:
     cnx = mysql.connector.connect(
-        user='root',  # ユーザー名
-        password='password',  # パスワード
-        host='mysql_db',  # ホスト名(IPアドレス）
-        database='dse-interview'  # データベース名
+        user='root', 
+        password='password', 
+        host='mysql_db', 
+        database='dse-interview'  
     )
 
     cursor = cnx.cursor()
 
     cursor.execute("DROP TABLE IF EXISTS sample_data")
 
-    cnx.commit() # コミット. (2, koro) のデータは問題なく書き込める．
+    cnx.commit() 
 
 
     sql = '''

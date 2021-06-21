@@ -3,19 +3,14 @@
 The solution to the assignment is as followed.
 
 * Build the environment for the PoC [docker-compose.yml](docker-compose.yml) in docker (python and mysql).
-* Create data structure in 'sample_data' table in 'dse-interview' database in the created mysql server.
-* Insert data from the provided csv file [sample_data.csv](python/sample_data.csv) to the 'sample_data' table.
-* Access data and create some stats and visualizations.
-
-
-
-
-
-
-
-
-
-
+* Create data structure in 'sample_data' table in 'dse-interview' database [create_table.py](python/create_table.py) in the created mysql server.
+* Insert data from the provided csv file [sample_data.csv](python/sample_data.csv) to the 'sample_data' table [insert_data.py](python/insert_data.py).
+* Access data and save a local copy of data in mysql server [read_data.py](python/read_data.py). 
+* Create some stats [loading-and-stats.ipynb](python/loading-and-stats.ipynb) and visualizations [plot-from-mysqlserver.ipynb](python/plot-from-mysqlserver.ipynb) in Jupyter-Notebook from saved local file or directly accessed from server.
+* Created lots of visualizations using Tableau with connecting to the mysql server directly and the visualizations are following below.
+```
+[Give Me Some Credit - Visualizations](https://public.tableau.com/app/profile/ying.wang2930/viz/GiveMeSomeCredit-Visualizations/NDplots) 
+```
 
 
 # Instruction and Memo
