@@ -9,6 +9,7 @@ The solution to the assignment is as followed.
 * Create some stats [loading-and-stats.ipynb](python/loading-and-stats.ipynb) and visualizations [plot-from-mysqlserver.ipynb](python/plot-from-mysqlserver.ipynb) in Jupyter-Notebook from saved local file or directly accessed from server.
 * Created lots of visualizations using Tableau with connecting to the mysql server directly and the visualizations are following [Give Me Some Credit - Visualizations](https://public.tableau.com/app/profile/ying.wang2930/viz/GiveMeSomeCredit-Visualizations/NDplots) . And here also has a local Tableau workbook [Visualizations.twbx](Visualizations.twbx) .
 
+![1D plots](1D-plots.png)
 
 
 
