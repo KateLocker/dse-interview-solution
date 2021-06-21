@@ -14,10 +14,10 @@ cnx = None
 
 try:
     cnx = mysql.connector.connect(
-        user='root',  # ユーザー名
-        password='password',  # パスワード
-        host='mysql_db',  # ホスト名(IPアドレス）
-        database='dse-interview'  # データベース名
+        user='root',  
+        password='password', 
+        host='mysql_db', 
+        database='dse-interview' 
     )
 
     cursor = cnx.cursor()
