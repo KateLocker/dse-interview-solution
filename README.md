@@ -7,19 +7,19 @@ The solution to the assignment is as followed.
 * Insert data from the provided csv file [sample_data.csv](python/sample_data.csv) to the 'sample_data' table [insert_data.py](python/insert_data.py).
 * Access data and save a local copy of data in mysql server [read_data.py](python/read_data.py). 
 * Create some stats [loading-and-stats.ipynb](python/loading-and-stats.ipynb) and visualizations [plot-from-mysqlserver.ipynb](python/plot-from-mysqlserver.ipynb) in Jupyter-Notebook from saved local file or directly accessed from server.
-* Created lots of visualizations using Tableau with connecting to the mysql server directly and the visualizations are following below. And here also has a local Tableau workbook [Visualizations.twbx](Visualizations.twbx) .
-[Give Me Some Credit - Visualizations](https://public.tableau.com/app/profile/ying.wang2930/viz/GiveMeSomeCredit-Visualizations/NDplots) 
+* Created lots of visualizations using Tableau with connecting to the mysql server directly and the visualizations are following [Give Me Some Credit - Visualizations](https://public.tableau.com/app/profile/ying.wang2930/viz/GiveMeSomeCredit-Visualizations/NDplots) . And here also has a local Tableau workbook [Visualizations.twbx](Visualizations.twbx) .
 
 
 
-# Instruction and Memo
+
+# Instruction and Issue Memo
 
 ## 1. download from gitlab
 ```
 git clone https://gitlab.com/Kate_L/dse-interview.git
 ```
 
-## 2. Build and run your app with Compose
+## 2. build and run with compose
 ```
 $ docker compose up --build -d
 ```
