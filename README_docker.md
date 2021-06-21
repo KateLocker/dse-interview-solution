@@ -29,11 +29,21 @@ $ python -m pip install pyyaml
 $ python -m pip install xlsxwriter
 $ python -m pip install tornado
 
-## Got a package bigger than
-docker compose exec mysql_db bash
+Got a package bigger than
 
+```
+$ docker compose exec mysql_db bash
 mysql -u root -p
 password
-
 SET GLOBAL max_allowed_packet=1000000000;
+```
 
+show number of rows and columns in table
+```
+SELECT COUNT(*) AS num_rows FROM sample_data;
+SELECT COUNT(*) AS num_columns FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_SCHEMA = 'dse-interview' AND TABLE_NAME = 'sample_data';
+```
+
+```
+hostname -i
+```
