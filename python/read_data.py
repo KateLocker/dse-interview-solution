@@ -15,6 +15,7 @@ cnx = mysql.connector.connect(
     user='root',  # ユーザー名
     password='password',  # パスワード
     host='mysql_db',  # ホスト名(IPアドレス）
+    port=3306,
     database='dse-interview'  # データベース名
 )
 
